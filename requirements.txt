@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+librosa
+sounddevice
+soundfile
+matplotlib
+joblib
+streamlit>=1.46
+plotly

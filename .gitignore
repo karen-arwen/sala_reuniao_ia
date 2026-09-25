@@ -1,0 +1,16 @@
+# ambiente Python (cada PC cria o seu com o iniciar.bat)
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.streamlit/secrets.toml
+
+# configuracao local: o microfone escolhido e diferente em cada computador
+config.json
+
+# gerados na maquina de quem treina/roda a reuniao (evita conflito no GitHub)
+modelos/*
+!modelos/.gitkeep
+reunioes/*
+!reunioes/.gitkeep
